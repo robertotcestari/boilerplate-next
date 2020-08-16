@@ -26,20 +26,16 @@ exports[`<Main /> should render the heading 1`] = `
 }
 
 .c1 {
-  width: 25rem;
-  margin-bottom: 2rem;
+  font-size: 4rem;
+  margin-bottom: 1rem;
 }
 
 .c2 {
-  font-size: 2.5rem;
-}
-
-.c3 {
   font-size: 2rem;
   font-weight: 400;
 }
 
-.c4 {
+.c3 {
   margin-top: 3rem;
   width: min(30rem,100%);
 }
@@ -47,25 +43,20 @@ exports[`<Main /> should render the heading 1`] = `
 <main
   class="c0"
 >
-  <img
-    alt="Logotipo"
-    class="c1"
-    src="/img/logo.svg"
-  />
   <h1
-    class="c2"
+    class="c1"
   >
-    React Next Boilerplate
+    Boilerplate Next
   </h1>
   <h2
-    class="c3"
+    class="c2"
   >
     Um Boilerplate com Typescript, NextJS e Styled Components
   </h2>
   <img
     alt="ilustração"
-    class="c4"
-    src="/img/hero-illustration.svg"
+    class="c3"
+    src="/img/dingo.png"
   />
 </main>
 `;

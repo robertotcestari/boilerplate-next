@@ -5,7 +5,7 @@ describe('<Main />', () => {
   it('should render the heading', () => {
     const { container } = render(<Main />);
     expect(
-      screen.getByRole('heading', { name: /React Next Boilerplate/i })
+      screen.getByRole('heading', { name: /Boilerplate Next/i })
     ).toBeInTheDocument();
 
     expect(container.firstChild).toMatchSnapshot();
